@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tv_login_success"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登录成功并关闭登录页面"
+        android:textSize="20dp"
+        android:textColor="#333333"
+        android:padding="10dp"/>
+    <TextView
+        android:id="@+id/tv_login_fail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="登录失败，并关闭登录页面"
+        android:textSize="20dp"
+        android:textColor="#333333"
+        android:padding="10dp"/>
+</LinearLayout>
